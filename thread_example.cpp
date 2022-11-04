@@ -1,3 +1,4 @@
+// Build command: g++ thread_example.cpp -o test -std=c++11 -pthread
 #include <iostream>
 #include <thread>
 #include <fstream>
