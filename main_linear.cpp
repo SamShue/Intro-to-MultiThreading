@@ -20,7 +20,7 @@ int main() {
         
     bool loop = true;
     while(loop){
-        cout << "Please input a file name:" << endl;
+        cout << "Please input a file name (file needs to be .bmp):" << endl;
         cin >> fileName;
         
         if(readGrayscaleBmp(fileName, buffer, fileSize, rows, cols, dataIndex)){
